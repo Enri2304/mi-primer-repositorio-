@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}   
+h1{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3,5em;
+    color: white;}
+.titulo{ 
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    color: #000000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+}
+ul{list-style: none;
+}
+h3{
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
+    font-size: 2.5em;
+}
+header{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background: #000000;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;      
+}
+.logo{
+    display: flex;
+    align-items: center;      
+}
+.logo img{
+    height: 50px;
+    border-radius: 50% ;    
+    margin-right: 10px;
+
+}
+nav a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #18610C;
+}
+nav a:hover{
+    background-color:#13450B;
+}
+ @media (max-width:600px){
+        header{
+            flex-direction: column; 
+        }
+        nav{
+            padding: 10px 0;
+        }
+ }
+
+button{
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 15px; 
+    color: white;
+    border: 0 solid rgba(0,0,5);
+    background-color: #18610C;
+    box-shadow: 3px 3px 15px rgba(0,0,5);
+}
+button:hover{
+    background-color:#13450B;
+}
+#Zion-shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(TT/vans1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#nuestros-productos{
+    text-align: center;
+}
+#nuestros-productos .conteiner{
+    background: #000005;
+    padding-bottom: 10px;
+}
+#nuestros-productos h2{
+    font-size: 3em;
+    padding: 25px 0;
+    color: white;
+}
+#nuestros-productos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+    margin: 20px ;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: url(TT/zion1.jpeg);
+}
+.carta:nth-child(2){
+    background-image: url(TT/zion32.jpeg);
+}
+.carta:nth-child(3){
+    background-image: url(TT/zion23.jpeg);
+}
+
+
+#estilos{
+    background: #000000;
+    align-items: center;
+}
+#estilos h2{
+    color: white;
+}
+#estilos .packs{
+    width: auto;
+    height: 480px;
+    border: solid 10px #504a4a;
+}
+#estilos .ropa1{
+    margin-top: 50px ;
+    margin-left:12px ;;
+    float: left;
+    background-image: url(TT/ropa1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 180px;
+    height:380px ;
+    border: solid 10px #504a4a;
+    
+}
+#estilos .ropa{
+    float: right;
+    width: 180px;
+    height: 120px;
+    margin:15px;
+    
+}
+.ropa:first-child{
+    background-image: url(TT/ropa2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border:solid 10px #504a4a ;
+}
+.ropa:nth-child(2){
+    background-image: url(TT/ropa3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border:solid 10px #504a4a ;
+}
+.ropa:nth-child(3){
+    background-image: url(TT/ropa5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border:solid 10px #504a4a ;
+    
+}
+@media (min-width:720px){
+    #nuestros-productos .cartas{
+        display: flex;
+        justify-content: center;       
+    }
+    #nuestros-productos .carta{ 
+        padding: 130px;
+    }
+    .carta:first-child{
+        background-image: url(TT/zion12.jpeg);
+    }
+    .carta:nth-child(2){
+        background-image: url(TT/zion3.jpeg);
+    }
+    .carta:nth-child(3){
+        background-image: url(TT/zion2.jpeg);
+    }
+    #estilos .packs{
+        width: 522px;
+        height: 525px;
+        border: solid 10px #504a4a;
+    }
+    #estilos .ropa{
+        width: 190px;
+        height: 130px;
+    }
+    #estilos .ropa2{
+        float: left;
+        flex-direction: column;
+        width: 210px;
+        height: 0px;
+        margin: 15px;
+    }
